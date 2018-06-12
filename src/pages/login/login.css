@@ -1,0 +1,31 @@
+/*#components-form-demo-normal-login .login-form {*/
+  /*max-width: 300px;*/
+/*}*/
+/*#components-form-demo-normal-login .login-form-forgot {*/
+  /*float: right;*/
+/*}*/
+/*#components-form-demo-normal-login .login-form-button {*/
+  /*width: 100%;*/
+/*}*/
+.login-container{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #373D41;
+}
+.login{
+  background: white;
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -125px;
+  margin-top: -125px;
+  border-radius: 4px;
+}
+.login-title{
+  text-align: center;
+}
