@@ -7,19 +7,6 @@ import { Switch, Route } from 'react-router-dom';
 import Home from '../pages/home/index';
 import Login from '../pages/login/login';
 
-// class Intro extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//
-//     }
-//   }
-//   render () {
-//     return (
-//
-//     )
-//   }
-// }
 const Intro = () => (
   <div>
     {/*<Switch>*/}
