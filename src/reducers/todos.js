@@ -8,7 +8,7 @@ let defaultState = {
   dataList: []
 }
 
-export const  goodsList = (state = defaultState, action) => {
+export const  proData = (state = defaultState, action) => {
   let imuDataList;
   let imuItem;
   switch (action.type) {
