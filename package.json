@@ -59,16 +59,6 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
-  "proxy": {
-    "/lx_p2p_api": {
-      "target": "http://47.93.63.11:8080/lx_p2p_api",
-      "secure": false,
-      "pathRewrite": {
-        "^/lx_p2p_api": ""
-      },
-      "changeOrigin": true
-    }
-  },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
   "devDependencies": {},
